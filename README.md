@@ -64,7 +64,7 @@ npx tailwindcss init
 ## 5 Add the styles that Webpack & PostCSS will build
 Before we change the actual styles: if you have a bare new AdonisJS application, and the developper server running (with `npm run dev`), you should see the default initial page going to [http://localhost:3333](http://localhost:3333):
 
-![Initial Adonis screen](/imgs/initial-screen-adonis-5-app.png)
+![Initial Adonis screen](/imgs/initial-screen-adonis-5-app.png)![initial-screen-adonis-5-app](https://user-images.githubusercontent.com/63517766/119332761-5656c280-bc89-11eb-9a3f-5c1ecbe2052d.png)
 
 Now go to `app.css`. You will probably find there the styles of that screen.
 
@@ -79,7 +79,8 @@ Delete everything and paste the imports that PostCSS (through Webpack) will use 
 
 Save the file. If you had your webpack-dev-server: the page will hot-reload automatically (give it some good 5 seconds to build all utility classes for the first time) and you will see the same screen, but with minimum styles:
 
-![Initial Adonis screen with bare TailwindCSS styles applied](/imgs/screenshot-tailwindcss-initial-screen-adonis-5-app.png)
+
+![Initial Adonis screen with bare TailwindCSS styles applied](https://user-images.githubusercontent.com/63517766/119332873-79817200-bc89-11eb-838d-02b1b8809a85.png)
 
 
 🎉 Congratulations! You successfully installed TailwindCSS in your Adonis 5 app.
