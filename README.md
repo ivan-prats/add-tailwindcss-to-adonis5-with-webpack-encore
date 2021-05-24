@@ -1,6 +1,6 @@
 # Installing TailwindCSS in a new AdonisJS 5 project with the default Webpack Encore
 
-The <a href="https://ivanprats.dev/blog/set-up-tailwindcss-in-new-adonis5" rel="canonical">original version of this article</a>
+The [original version of this article](https://ivanprats.dev/blog/set-up-tailwindcss-in-new-adonis5)
 is in my personal website.
 
 I love [TailwindCSS](https://tailwindcss.com/), and I love AdonisJS, so it only makes sense that anybody should be able to set them up togheter. Right?
