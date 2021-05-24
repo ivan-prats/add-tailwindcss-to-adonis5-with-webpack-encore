@@ -1,5 +1,8 @@
 # Installing TailwindCSS in a new AdonisJS 5 project with the default Webpack Encore
 
+The <a href="https://ivanprats.dev/blog/set-up-tailwindcss-in-new-adonis5" rel="canonical">original version of this article</a>
+is in my personal website.
+
 I love [TailwindCSS](https://tailwindcss.com/), and I love AdonisJS, so it only makes sense that anybody should be able to set them up togheter. Right?
 
 I've found other guides that use [Laravel Mix for the asset handling](https://github.com/wahyubucil/adonis-mix-asset#readme), but none that use the [default Webpack Encore package](https://docs.adonisjs.com/guides/assets-manager) that comes with the new v5 of the framework. Which suprised me quite a bit because, having tried both ways, I find Encore's syntax, webpack-dev-server, and logs way more pleasant to work with.
